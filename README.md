@@ -27,6 +27,12 @@ Process:
 
 ### Data Manipulation
 
+ - Used excel to edit .csv files
+ - Deleted "Rk" column as teams were sorted by name, not by rank. Also, this project is trying to predict final number of wins, not final rank in standings.
+ - Deleted repeating columns
+ - Deleted minutes played as stats were seperated into per possession, not minutes played
+ - Deleted any percentage based stat, as any of those will be calculated by Made divided by Attempted 
+
 ### Information Presentation Draft 1
 
 ### Poster Draft 1
