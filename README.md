@@ -3,7 +3,7 @@
 ### Checklist
 - [x] Proposal
 - [x] Initial Data Collection
-- [ ] Data Manipulation
+- [x] Data Manipulation
 - [ ] Information Presentation Draft 1
 - [ ] Poster Draft 1
 - [ ] Final Project: Repo
@@ -27,7 +27,25 @@ Process:
 
 ### Data Manipulation
 
+ - Used excel to edit .csv files
+ - Deleted "Rk" column as teams were sorted by name, not by rank. Also, this project is trying to predict final number of wins, not final rank in standings.
+ - Deleted repeating columns
+ - Deleted minutes played as stats were seperated into per possession, not minutes played
+ - Deleted any percentage based stat, as any of those will be calculated by Made divided by Attempted 
+
+**What I still need to do with this data set**
+
+ - Rest of schedule stats (etc.: 3P shots allowed from remaining opponents)
+ -  * Past seasons datasets? Maybe?
+ -  *Maybe not, because this is for this season and this season has just above 50 games worth of data for each team.
+ -  I think this will be much easier if I make one big .CSV file, so I will be working on that tomorrow.
+
 ### Information Presentation Draft 1
+
+Tools used:
+ * pandas to load CSV file 
+ * matplotlib for pyplot to visualize data
+
 
 ### Poster Draft 1
 
