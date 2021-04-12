@@ -3,7 +3,7 @@
 ### Checklist
 - [x] Proposal
 - [x] Initial Data Collection
-- [ ] Data Manipulation
+- [x] Data Manipulation
 - [ ] Information Presentation Draft 1
 - [ ] Poster Draft 1
 - [ ] Final Project: Repo
