@@ -45,9 +45,9 @@ for col in stats:
 
 Initial information includes:
  - Pairplot
-[image of Pairplot](/MullaneyJamesDataMiningFinalProject/Pictures/Pairplot.png)
+[image of Pairplot](Pictures/Pairplot.png)
  - Correlation Matrix
-[image of Correlation Matrix](/MullaneyJamesDataMiningFinalProject/Pictures/correlationMatrix.png)
+[image of Correlation Matrix](Pictures/correlationMatrix.png)
 
 Tools used:
  * NBA.com for stats
