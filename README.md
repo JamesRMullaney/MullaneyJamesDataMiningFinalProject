@@ -5,9 +5,9 @@
 - [x] Initial Data Collection
 - [x] Data Manipulation
 - [x] Information Presentation Draft 1
-- [] Poster Draft 1
+- [x] Poster Draft 1
 - [x] Final Project: Repo
-- [ ] Final Project: Poster Final Draft
+- [x] Final Project: Poster Final Draft
 
 ### Proposal
 
@@ -44,7 +44,11 @@ for col in stats:
 ### Information Presentation Draft 1
 
 Initial information includes:
- - 
+ - Pairplot
+![image of Pairplot](Pictures/Pairplot.png)
+ - Correlation Matrix
+
+![image of Correlation Matrix](Pictures/correlationMatrix.png)
 
 Tools used:
  * NBA.com for stats
@@ -52,11 +56,3 @@ Tools used:
  * Seaborn and statsmodels for data visualization
  * Pandas and numpy for csv reading and data manipulation
  * SKLearn for prediction models
-
-
-### Poster Draft 1
-
-### Final Project: Repo
-
-### Final Project: Poster Final Draft
-
