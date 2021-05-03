@@ -5,7 +5,7 @@
 - [x] Initial Data Collection
 - [x] Data Manipulation
 - [x] Information Presentation Draft 1
-- [] Poster Draft 1
+- [ ] Poster Draft 1
 - [x] Final Project: Repo
 - [ ] Final Project: Poster Final Draft
 
@@ -44,7 +44,10 @@ for col in stats:
 ### Information Presentation Draft 1
 
 Initial information includes:
- - 
+ - Pairplot
+[image of Pairplot](/MullaneyJamesDataMiningFinalProject/Pictures/Pairplot.png)
+ - Correlation Matrix
+[image of Correlation Matrix](/MullaneyJamesDataMiningFinalProject/Pictures/correlationMatrix.png)
 
 Tools used:
  * NBA.com for stats
