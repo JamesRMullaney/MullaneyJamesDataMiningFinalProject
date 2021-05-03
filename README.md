@@ -4,9 +4,9 @@
 - [x] Proposal
 - [x] Initial Data Collection
 - [x] Data Manipulation
-- [ ] Information Presentation Draft 1
-- [ ] Poster Draft 1
-- [ ] Final Project: Repo
+- [x] Information Presentation Draft 1
+- [] Poster Draft 1
+- [x] Final Project: Repo
 - [ ] Final Project: Poster Final Draft
 
 ### Proposal
@@ -17,34 +17,41 @@ The idea is to use online data to find correlations in what stats lead what team
 
 ### Initial Data Collection
 
-Stats gotten from: https://www.basketball-reference.com
+Stats gotten from: [NBA's Official Website](NBA.com)
 
 Process:
-  - Sorted teams by alphabetical order, to keep teams in same order over multiple .csv files
-  - Converted offensive and defensive stats ( per 100 possessions ) to .csv files and added them to the github repo
-  - Noticed none of the stats included wins and loses, so added a miscellaneous stats file to reference the number of a teams wins and loses. 
-  - Made small adjustements to the datasets on a text editor (atom)
+  - NBA.com has access to every boxscore for every game in table format
+  - Copy / paste into excel ( I tried to find a webmining way to do it and couldn't . . . but really if it's as easy as copy / paste I'm using it!)
+  - Removed some unneccesary columns
+  - Copy / paste team statistics into excel
+  - Removed unneccesary columns
+  - Adjusted team names ( New York Knicks -> NYK )
 
 ### Data Manipulation
 
- - Used excel to edit .csv files
- - Deleted "Rk" column as teams were sorted by name, not by rank. Also, this project is trying to predict final number of wins, not final rank in standings.
- - Deleted repeating columns
- - Deleted minutes played as stats were seperated into per possession, not minutes played
- - Deleted any percentage based stat, as any of those will be calculated by Made divided by Attempted 
+ - Adjust dataset to show 'W' as 1 and 'L' as 0
+```python
+stats['res'] = np.where(stats['res'] == 'W', 1, 0)
+```
+ - change datatypes to float64 for regression, besides team of course
+```python
+for col in stats:
+    if stats[col].dtype != 'object':
+        stats[col] = stats[col].astype('float64')
+```
 
-**What I still need to do with this data set**
-
- - Rest of schedule stats (etc.: 3P shots allowed from remaining opponents)
- -  * Past seasons datasets? Maybe?
- -  *Maybe not, because this is for this season and this season has just above 50 games worth of data for each team.
- -  I think this will be much easier if I make one big .CSV file, so I will be working on that tomorrow.
 
 ### Information Presentation Draft 1
 
+Initial information includes:
+ - 
+
 Tools used:
- * pandas to load CSV file 
- * matplotlib for pyplot to visualize data
+ * NBA.com for stats
+ * JupyterLab for workstation
+ * Seaborn and statsmodels for data visualization
+ * Pandas and numpy for csv reading and data manipulation
+ * SKLearn for prediction models
 
 
 ### Poster Draft 1
