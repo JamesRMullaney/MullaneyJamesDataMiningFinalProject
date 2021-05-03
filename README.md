@@ -5,9 +5,9 @@
 - [x] Initial Data Collection
 - [x] Data Manipulation
 - [x] Information Presentation Draft 1
-- [ ] Poster Draft 1
+- [x] Poster Draft 1
 - [x] Final Project: Repo
-- [ ] Final Project: Poster Final Draft
+- [x] Final Project: Poster Final Draft
 
 ### Proposal
 
